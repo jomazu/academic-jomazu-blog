@@ -71,7 +71,7 @@ Example:
 Create a way to **DISPLAY** todos.  
 
 - [console.log](https://developer.mozilla.org/en-US/docs/Web/API/Console/log) - the function used to **DISPLAY** todos. This method allows multiple arguments.  
-- [about:blank](https://www.lifewire.com/about-blank-4125143) - open a new browser tab and type ***about:blank*** to view a blank web page. A better option is to set it as your homepage.  
+- [about:blank](https://www.lifewire.com/about-blank-4125143) - open a new browser tab and type `about:blank` to view a blank web page. A better option is to set it as your homepage.  
 - [option + command + i](https://support.apple.com/en-us/HT201236) - shows or hides the inspector/developer tools window.  
 
 Example:  
