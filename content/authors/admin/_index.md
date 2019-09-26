@@ -20,7 +20,7 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
-bio: Thanks for visiting my site. I hope you are enjoying the reflective tapestry of projects, posts, and code snippets!
+bio: Thanks for visiting my site. I hope you enjoy the reflective tapestry of projects, posts, and code snippets!
 
 interests:
 - Blockchain Technology
@@ -73,6 +73,8 @@ user_groups:
 - Visitors
 ---
 
-By day, I (aka Jomazu) am a Project Manager for [Magid Glove & Safety](https://www.magidglove.com/) - America’s leading, family-owned, Personal Protective Equipment (PPE) manufacturer.
+I am an ardent technology enthusiast and Project Manager for [Magid Glove & Safety](https://www.magidglove.com/) - America’s leading, family-owned (since 1946), Personal Protective Equipment (PPE) manufacturer.
 
 Outside of work, programming, and web development, I like to travel and spend time with family. I enjoy reading, learning new skills (a committed lifelong learner), being outdoors in the Arizona sun, and staying fit.
+
+This site was spawned from my desire to document, collect and share pieces of accumulated knowledge. It continues to be a work-in-progress!
