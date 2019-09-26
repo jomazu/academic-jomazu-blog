@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: John Zukowski
 
 # Username (this should match the folder name)
 authors:
@@ -10,50 +10,53 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Project Manager
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: Magid Glove & Safety
+  url: "https://www.magidglove.com/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+# bio: My research interests include distributed robotics, mobile computing and programmable matter.
+
+bio: My interests include blockchain technology, functional programming and web development.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Blockchain Technology
+- Data Analytics
+- Functional Programming
+- Web Development
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: BS in Operations and Information Technology
+    institution: Northeastern University
+    year: 2015
+  - course: AA in Business
+    institution: University of Phoenix
+    year: 2010
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/johnzukowski/
+# - icon: envelope
+  # icon_pack: fas
+  # link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://twitter.com/johnzuk1
+# - icon: google-scholar
+  # icon_pack: ai
+  # link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/jomazu
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
@@ -70,6 +73,8 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+By day, I am a Project Manager for [Magid Glove & Safety](https://www.magidglove.com/) - America’s leading, family-owned, Personal Protective Equipment (PPE) manufacturer.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Outside of work, programming, and web development, I like to travel and spend time with family. I enjoy reading, learning new skills (a committed lifelong learner), being outdoors in the Arizona sun, and staying fit.
+
+Thanks for stopping by my site. I hope you enjoy my reflective tapestry of articles, posts, and code snippets - enjoy!
