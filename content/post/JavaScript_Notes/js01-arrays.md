@@ -46,8 +46,8 @@ An array (list) is an ordered collection of data, used to store multiple values 
 * **Methods** - functions that belong to an object.  
 
 
-## V1 Requirements
-Requirements for building a `TODO` application:  
+## Requirements
+Requirements for building `TODO` application arrays:  
 
 - [x] It should have a place to **STORE** todos  
 - [x] It should have a way to **DISPLAY** todos  
