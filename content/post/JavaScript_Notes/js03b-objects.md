@@ -4,7 +4,7 @@
 title: "JavaScript Objects"
 summary: "Section 3b"
 authors: [John Zukowski]
-tags: [Objects]
+tags: [JavaScript, Objects]
 categories: [JavaScript, Objects]
 date: 2017-12-04T13:21:05-07:00
 

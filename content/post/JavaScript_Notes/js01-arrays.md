@@ -4,7 +4,7 @@
 title: "JavaScript Arrays"
 summary: "Section 1"
 authors: [John Zukowski]
-tags: [Arrays]
+tags: [JavaScript, Arrays]
 categories: [JavaScript, Arrays]
 date: 2017-12-04T13:21:05-07:00
 

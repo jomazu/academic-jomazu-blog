@@ -57,6 +57,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/jomazu
+- icon: stack-overflow
+  icon_pack: fab
+  link: https://stackoverflow.com/users/6083873/john-zukowski
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv

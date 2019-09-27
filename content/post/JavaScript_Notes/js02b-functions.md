@@ -4,7 +4,7 @@
 title: "JavaScript Functions"
 summary: "Section 2b"
 authors: [John Zukowski]
-tags: [Functions]
+tags: [JavaScript, Functions]
 categories: [JavaScript, Functions]
 date: 2017-12-04T13:21:05-07:00
 
