@@ -63,7 +63,7 @@ makeSalamiSandwich
 // Call the function
 makeSalamiSandwich();
 ```
-
+<br>
 
 ## Customizing Functions
 - [Parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function) - the names of the arguments to be passed to the function.  
@@ -98,3 +98,5 @@ Conceptual example of customizing a function:
 > sayHiTo('John');
 Hi, John
 ```
+<br>
+[Next page...](../js02b-functions)

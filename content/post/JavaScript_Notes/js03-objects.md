@@ -74,9 +74,9 @@ purchaseYear 2015
 2015
 ```
 
-
+<br>
 ## Objects and Functions
-The relationship between objects and functions.  
+There is a relationship between objects and functions.  
 Note, you can actually place functions on objects.  
 
 Example, using an object that refers to itself, using [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this).  
@@ -116,11 +116,13 @@ Lastly, when you have a function on an object, you do not have to give it a name
 
 This is referred to as an **ANONYMOUS FUNCTION**.  
 
-
-## Plunker
+<br>
+## [Plunker](https://plnkr.co/)
 - `Login`  
 - `Launch the Editor`  
 - Select `script.js` from the Files section  
 - Enter a `Description` to name the file:  
   - `PJS - V3` - PJS for "Practical JavaScript Version 3"  
 - `Save`  
+<br>
+[Next page...](../js03b-objects)

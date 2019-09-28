@@ -7,6 +7,7 @@ authors: [John Zukowski]
 tags: [JavaScript, Arrays]
 categories: [JavaScript, Arrays]
 date: 2017-12-04T13:21:05-07:00
+weight: 31
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -45,9 +46,9 @@ An array (list) is an ordered collection of data, used to store multiple values 
 * **Properties** - pieces of meta information about an object that can be retrieved and used.  
 * **Methods** - functions that belong to an object.  
 
-
+<br>
 ## Requirements
-Requirements for building `TODO` application arrays:  
+Arrays needed for building a `TODO` application:  
 
 - [x] It should have a place to **STORE** todos  
 - [x] It should have a way to **DISPLAY** todos  
@@ -55,7 +56,7 @@ Requirements for building `TODO` application arrays:
 - [x] It should have a way to **CHANGE** a todo  
 - [x] It should have a way to **DELETE** a todo  
 
-
+<br>
 ## STORE
 Create a place to **STORE** todos.  
 
@@ -66,7 +67,7 @@ Example:
 > var todos = ['item 1', 'item 2', 'item 3'];
 ```
 
-
+<br>
 ## DISPLAY
 Create a way to **DISPLAY** todos.  
 
@@ -86,7 +87,7 @@ Example:
 My Todos: [ 'item 1', 'item 2', 'item 3' ]
 ```
 
-
+<br>
 ## ADD
 Create a way to **ADD** todos.  
 
@@ -101,7 +102,7 @@ Example:
 ["item 1", "item 2", "item 3", "item 4"]
 ```
 
-
+<br>
 ## CHANGE
 Create a way to **CHANGE** todos.  
 
@@ -136,7 +137,7 @@ Example:
 ["item 1 updated", "item 2", "item 3", "item 4", "item 5 updated"]
 ```
 
-
+<br>
 ## DELETE
 Create a way to **DELETE** todos.  
 
@@ -168,3 +169,5 @@ Example:
 > todos;
 ["item 2"]
 ```
+<br>
+[Next page...](../js02-functions)
