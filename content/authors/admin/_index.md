@@ -76,7 +76,7 @@ user_groups:
 - Visitors
 ---
 
-I am an ardent technology enthusiast and Project Manager for [Magid Glove & Safety](https://www.magidglove.com/) - America’s leading, family-owned (since 1946), Personal Protective Equipment (PPE) manufacturer.
+I am an ardent technology enthusiast and Project Manager for [Magid Glove & Safety](https://www.magidglove.com/) - America’s leading, family-owned, Personal Protective Equipment (PPE) manufacturer - since 1946.
 
 Outside of work, programming, and web development, I like to travel and spend time with family. I enjoy reading, learning new skills (a committed lifelong learner), being outdoors in the Arizona sun, and staying fit.
 
