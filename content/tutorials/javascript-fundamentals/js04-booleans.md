@@ -1,44 +1,19 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+title: Booleans
+linktitle: JS Booleans, ch-04
+toc: true
+type: docs
+date: "2017-12-04T00:00:00+01:00"
+draft: false
+menu:
+  javascript-fundamentals:
+    parent: JavaScript
+    weight: 6
 
-title: "JavaScript Booleans"
-summary: "Section 4"
-authors: [John Zukowski]
-tags: [JavaScript, Booleans]
-categories: [JavaScript, Booleans]
-date: 2017-12-04T13:21:05-07:00
-
-# Optional external URL for project (replaces project detail page).
-external_link: ""
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-# Custom links (optional).
-#   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
-
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: ""
+# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
+weight: 6
 ---
+
 <br>
 ## Requirements
 `ToDo` application requirements:  
@@ -49,7 +24,7 @@ slides: ""
 
 This section will also cover **Booleans**, which is a representation of true or false.  
 
-
+<br>
 ## todoList.addTodo
 Right now we are adding `todos` as text. We are going to change this, so that `addTodo` will add **objects**, instead of text to our todo array.  
 
@@ -107,7 +82,7 @@ My Todos: [object Object]
 [ { todoText: 'new todo item', completed: false } ]
 ```
 
-
+<br>
 ## todoList.changeTodo
 Now, we need to modify the `changeTodo` method, so that it changes just the `todoText` property on each todo object.  
 
@@ -143,7 +118,7 @@ My Todos: [object Object]
 [ { todoText: 'changed todo item', completed: false } ]
 ```
 
-
+<br>
 ## todoList.toggleCompleted
 Now, we need to add a method called `toggleCompleted` that changes the value of the completed property, which is a boolean value (true or false).  
 
@@ -223,7 +198,7 @@ My Todos: [object Object],[object Object]
   { todoText: '2nd todo item', completed: true } ]
 ```
 
-
+<br>
 ## Review
 We changed the structure of the array to be an array of objects, rather than an array of just text.  
 
@@ -231,5 +206,3 @@ We modified our `changeTodo` method so that it only changes the todo text proper
 
 We learned about booleans and how to take the opposite of a boolean value in our `toggleCompleted` method.  
  
-<br>
-[Next page...](../js03-objects)

@@ -1,44 +1,19 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+title: Objects continued...
+linktitle: JS Objects, ch-03b
+toc: true
+type: docs
+date: "2017-12-04T00:00:00+01:00"
+draft: false
+menu:
+  javascript-fundamentals:
+    parent: JavaScript
+    weight: 5
 
-title: "JavaScript Objects"
-summary: "Section 3b"
-authors: [John Zukowski]
-tags: [JavaScript, Objects]
-categories: [JavaScript, Objects]
-date: 2017-12-04T13:21:05-07:00
-
-# Optional external URL for project (replaces project detail page).
-external_link: ""
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-# Custom links (optional).
-#   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
-
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: ""
+# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
+weight: 5
 ---
+
 <br>
 ## Requirements
 Methods needed for building a `TODO` application:
@@ -143,6 +118,7 @@ My Todos: item 1,item 2,item 3
 > todoList.addTodo('item 4');
 My Todos: item 1,item 2,item 3,item 4
 ```
+
 <br>
 ## changeTodo
 Change the `changeTodo` function from a standalone function to a method on our `todoList` object.  
@@ -228,12 +204,3 @@ var todoList = {
 > todoList.deleteTodo(0);
 My Todos: item 2,item 3
 ```
-
-<br>
-## Success is a Process
-Make sure to read Gordon Zhu's guide for asking questions:  
-
-- [How to be great at asking coding questions](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603)  
-
-<br>
-[Next page...](../js04-booleans)

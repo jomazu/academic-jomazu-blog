@@ -1,15 +1,12 @@
 ---
-title: JavaScript Arrays
-linktitle: JavaScript Arrays-01
-authors: [John Zukowski]
-tags: [JavaScript, Arrays]
-categories: [JavaScript, Arrays]
+title: Arrays
+linktitle: JS Arrays, ch-01
 toc: true
 type: docs
-date: "2019-09-27T00:00:00+01:00"
+date: "2017-12-04T00:00:00+01:00"
 draft: false
 menu:
-  todo-app:
+  javascript-fundamentals:
     parent: JavaScript
     weight: 1
 
@@ -146,5 +143,3 @@ Example:
 > todos;
 ["item 2"]
 ```
-<br>
-[Next page...](../js02-functions)
