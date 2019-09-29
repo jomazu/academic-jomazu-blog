@@ -4,6 +4,7 @@ linktitle: JS Objects, ch-03b
 toc: true
 type: docs
 date: "2017-12-04T00:00:00+01:00"
+lastmod: "2017-12-04T00:00:00Z"
 draft: false
 menu:
   javascript-fundamentals:
