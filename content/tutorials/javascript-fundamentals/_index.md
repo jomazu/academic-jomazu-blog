@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: JavaScript Fundamentals
 summary: Learn how to build a simple JavaScript TODO application.
-weight: 7
+weight: 1
 
 # Page metadata.
 title: Overview
@@ -18,7 +18,7 @@ type: docs  # Do not modify.
 menu:
   javascript-fundamentals:
     name: Overview
-    weight: 7
+    weight: 1
 ---
 
 ## JavaScript Fundamentals

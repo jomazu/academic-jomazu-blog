@@ -16,7 +16,7 @@ weight: 6
 
 <br>
 ## Requirements
-`ToDo` application requirements:  
+The requirements for this chapter:  
 
 - `todoList.addTodo` should **ADD** objects  
 - `todoList.changeTodo` should **CHANGE** the `todoText` property  

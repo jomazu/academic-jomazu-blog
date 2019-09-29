@@ -16,7 +16,7 @@ weight: 3
 
 <br>
 ## Requirements
-Functions needed for building a `TODO` application:  
+The requirements for this chapter:  
 
 - [x] It should have a function (recipe) to **DISPLAY** todos  
 - [x] It should have a function (recipe) to **ADD** todos  

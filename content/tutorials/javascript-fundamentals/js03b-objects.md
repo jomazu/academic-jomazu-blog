@@ -16,17 +16,18 @@ weight: 5
 
 <br>
 ## Requirements
-Methods needed for building a `TODO` application:
+The requirements for this chapter:
 
 - It should **STORE** the todos array on an object  
 
-*Place the following methods on an object that represents a Todo list*  
-This helps to organize our code and ensure that everthing related to a Todo list is on a Todo list object.  
+*Place the following methods on an object that represents a Todo list*   
 
 - It should have a **displayTodos** method   
 - It should have an **addTodo** method  
 - It should have a **changeTodo** method  
 - It should have a **deleteTodo** method  
+
+This helps to organize our code and ensure that everthing related to a Todo list is on a Todo list object. 
 
 <br>
 ## STORE
