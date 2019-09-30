@@ -7,7 +7,7 @@ date: "2017-12-06T00:00:00+01:00"
 lastmod: "2017-12-06T00:00:00Z"
 draft: false
 menu:
-  javascript-fundamentals:
+  javascript_fundamentals:
     parent: JavaScript
     weight: 9
 
