@@ -10,17 +10,17 @@ authors:
 superuser: true
 
 # Role/position
-role: Project Manager
+role: a.k.a. - Jomazu
 
 # Organizations/Affiliations
-organizations:
-- name: Magid Glove & Safety
-  url: "https://www.magidglove.com/"
+# organizations:
+# - name: Magid Glove & Safety
+#   url: "https://www.magidglove.com/"
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
-bio: Thanks for visiting my site. I hope you enjoy the reflective tapestry of projects, posts, and code snippets!
+bio: Thanks for visiting my site! #I hope you enjoy the reflective tapestry of projects, posts, and code snippets!
 
 interests:
 - Blockchain Technology
