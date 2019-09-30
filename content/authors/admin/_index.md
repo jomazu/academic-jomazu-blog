@@ -20,7 +20,7 @@ role: a.k.a. - Jomazu
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
-bio: Thanks for visiting my site! #I hope you enjoy the reflective tapestry of projects, posts, and code snippets!
+bio: Thank you for visiting my site! #I hope you enjoy the reflective tapestry of projects, posts, and code snippets!
 
 interests:
 - Blockchain Technology

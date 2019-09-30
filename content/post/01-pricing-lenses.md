@@ -70,7 +70,7 @@ slides: ""
 #### I.
 The first overlap is between **Economics** (Supply & Demand) and **Customers** (how customers value things differently). This overlap is about:  
 
-- **Price Elasticity** - is the measure of how much your volume will depend on your price, and how much your customers value your product. Also, the measure of where your costs are, so that you can optimize the volume you want for the margins you expect to receive.
+- **Price Elasticity** - the measure of how much your volume will depend on your price, and how much your customers value your product. Also, the measure of where your costs are, so that you can optimize the volume you want for the margins you expect to receive.
 
 #### II.
 The second overlap is between **Customers** (Customer Segments and where they come from) and **Competitors** (what they are offering). This overlap is about:  
