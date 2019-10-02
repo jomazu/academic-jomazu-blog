@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Command Line Basics
 summary: Linux Command Line Basics.
-weight: 3
+weight: 1
 
 # Page metadata.
 title: Overview
@@ -18,7 +18,7 @@ type: docs  # Do not modify.
 menu:
   command_line:
     name: Overview
-    weight: 3
+    weight: 1
 ---
 
 <br>
