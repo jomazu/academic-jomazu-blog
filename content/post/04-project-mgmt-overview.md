@@ -64,9 +64,6 @@ Most projects are cross-functional.  They include experts from different parts o
 
 4. Each functional team requires some management, though, so each of these teams should have a single person designated as the **Functional Team Leader**.  The functional team leaders are often called **Project Managers** because they're actually managing a small project within the bigger project.  
 
-![Functional-Teams](https://res.cloudinary.com/jomazu/image/upload/w_1.25,c_scale/v1553056099/jomazu/functional-teams.png)
-
-
 <br>
 In summary, a project is an initiative to create a change.  It has a defined beginning and an end, and the main project roles include:
 
@@ -76,4 +73,8 @@ In summary, a project is an initiative to create a change.  It has a defined beg
 *and*  
 - The **Functional Team Leaders**
 
-All of the people appointed to these roles need to work together to successfully complete a project!  
+All of the people appointed to these roles, as illustrated in figure 1.1, need to work together to successfully complete a project!  
+
+![Functional-Teams](https://res.cloudinary.com/jomazu/image/upload/v1553056099/jomazu/functional-teams.png)
+
+**Figure 1.1** Project Roles

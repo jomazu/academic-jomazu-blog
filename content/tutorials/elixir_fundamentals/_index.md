@@ -31,7 +31,7 @@ The development of Erlang was led by [Joe Armstrong](https://en.wikipedia.org/wi
 
 As mentioned, Erlang was specifically created to support the development of highly available systems - working 24/7 without any downtime. To do so, the system had to address the following challenges:
 
-- `Fault-tolerance` - keep working when something unforeseen happens.
+- `Fault-Tolerance` - keep working when something unforeseen happens.
 - `Scalability` - handle any possible load, including the ability to respond to load increases by adding more hardware resources without any software intervention or a system restart.
 - `Distribution` - scale horizontally by adding more machines without interruption.
 - `Responsiveness` - always be reasonably fast and responsive.
@@ -41,7 +41,44 @@ Erlang provides the tools to address these challenges - that's what it was built
 
 <br>
 ## Erlang Concurrency
-At the heart and sould of Erlang systems is concurrency. 
+At the heart and soul of Erlang systems is concurrency, as illustrated in figure 1.1.
+
+- `BEAM` - the Erlang virtual machine (VM), called BEAM (`B`ogdan/Bjorn's `E`rlang `A`bstract `M`achine).
+- `Erlang process` - the basic concurrency primitive.
+- `Schedulers` - what BEAM uses to distribute the execution of `processes` over the available CPU cores.
+
+Concurrency promotes:
+
+- `Fault-Tolerance`
+  - Erlang *processes* are completely isolated from each other. They share no memory - a crash of one *process* doesn't cause a crash of other *processes*.
+- `Scalability`
+  - *Processes* communicate via asynchronous messages - beginning each message after finishing the preceding one.
+  - Typical Erlang systems are divided into a large number of concurrent processes, which cooperate together to provide the complete service.
+  - The VM can efficiently parallelize the execution of *processes* as much as possible. This makes Erlang systems scalable, because they can take advantage of all available CPU cores.
+- `Distribution`
+  - Communication between *processes* works the same way regardless of whether the *processes* reside in the same BEAM instance or on two different instances on two separate, remote computers.
+- `Responsiveness`
+  - Erlang takes the execution of multiple *processes* into its own hands by employing dedicated *schedulers* that interchangeably execute many Erlang *processes*.
+  - A *scheduler* is preemtive - it gives a small execution window to each *process* and then pauses it and runs another *process*. Because the execution window is small, a single long-running *process* can't block the rest of the system.
+  - I/O operations are internally delegated to separate threads. Any *process* that waits for an I/O operation to finish won't block the execution of other *processes*.
+
+![Erlang Concurrency](https://res.cloudinary.com/jomazu/image/upload/w_0.40,c_scale/v1570048600/jomazu/BEAM_concurrency.png)
+
+**Figure 1.1** Concurrency in the Erlang VM
+  
+<br>
+## Erlang - Server-Side Systems
+Erlang can be used in various applications and systems, such as desktop applications and embedded environments. However, its sweet spot lies in **server-side systems** - systems that run on one or more servers and must serve many simultaneous clients. It is an entire system that does more than handle requests, run various background jobs, and manage server-wide in-memory state, as illustrated in figure 1.2.
+
+A server-side system is often distributed on multiple machines that collaborate to produce **business value**.
+
+![Server-side system](https://res.cloudinary.com/jomazu/image/upload/w_0.40,c_scale/v1570048607/jomazu/Erlang_server-side_system.png)
+
+**Figure 1.2** Server-side system
+
+<br>
+
+
 
 <br>
 ## References

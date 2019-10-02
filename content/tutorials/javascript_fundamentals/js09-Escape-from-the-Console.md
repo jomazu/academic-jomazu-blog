@@ -25,7 +25,7 @@ The requirements for this chapter:
 
 <br>
 ## Escape From The Console
-In our app, we do not know how many items will be in the **unordered list**. Additionally, the items can change over time - i.e. delete and item or add an item etc. Thus, we need to dynamically add items to the list and delete items from the list.  
+In our app, we do not know how many items will be in the **unordered list**. Additionally, the items can change over time - i.e. delete an item or add an item etc. Thus, we need to dynamically add items to the list and delete items from the list.  
 
 But, first we need to know how to insert list items into the DOM. To do this, we will use JavaScript to dynamically insert list elements into the unordered list.  
 
