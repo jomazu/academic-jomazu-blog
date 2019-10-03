@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: a.k.a. - Jomazu
+role: aka - Jomazu
 
 # Organizations/Affiliations
 # organizations:
