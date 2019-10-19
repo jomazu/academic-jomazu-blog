@@ -28,12 +28,14 @@ Developed by Google, [Dart](https://dart.dev) is a client-optimized language for
 Dart...
 
 - Is a terse, strongly-typed, object-oriented language.
+
 - Will feel familiar if you have experience with languages like Swift, C#, Java or JavaScript.
+
 - Compiles to ARM & x64 machine code for mobile, desktop, and backend. Or compile to JavaScript for the web.
+
 - Supports both JIT (just-in-time) and AOT (ahead-of-time) compilation.
   - JIT code is continuously recompiled directly on the device, allowing hot reload.
-  - AOT code is compiled directly to native ARM code, leading to fast startup and predictable performance.
+  - AOT code is compiled directly to native ARM code, leading to fast startup and predictable performance.  
+  
 - Is performant in development and in production.
-
-
 
