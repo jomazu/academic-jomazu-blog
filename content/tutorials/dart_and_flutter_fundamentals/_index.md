@@ -1,7 +1,7 @@
 ---
 # Course title, summary, and position.
-linktitle: About Dart and Flutter
-summary: Why Dart and Flutter.
+linktitle: Dart and Flutter
+summary: Natively compiled apps for mobile, web, and desktop.
 weight: 3
 
 # Page metadata.
@@ -21,8 +21,8 @@ menu:
     weight: 3
 ---
 
-![Dart logo](https://res.cloudinary.com/jomazu/image/upload/w_0.25,c_scale/v1571540625/jomazu/logos/logo_lockup_dart_horizontal.png)
-The [Dart](https://dart.dev) programming language was developed by Google and designed by [Lars Bak](https://en.wikipedia.org/wiki/Lars_Bak_(computer_programmer)) and [Kasper Lund](http://verdich.dk/kasper/) (both instrumental in the creation of Chrome's V8 engine) - initially released in 2013. It was built to create fast apps that can run on any platform.
+![Dart and Flutter logo](https://res.cloudinary.com/jomazu/image/upload/w_0.5,c_scale/v1571546844/jomazu/logos/flutter_dart_logo.png)
+The [Dart](https://dart.dev) programming language was developed by Google and designed by [Lars Bak](https://en.wikipedia.org/wiki/Lars_Bak_(computer_programmer)) and [Kasper Lund](http://verdich.dk/kasper/) (both instrumental in the creation of Chrome's V8 engine) - released in 2013. It was built to create fast apps that can run on any platform.
 
 A sampling of Dart's features...
 
@@ -34,9 +34,5 @@ A sampling of Dart's features...
   - AOT code is compiled directly to native ARM code, leading to fast startup and predictable performance.
 - Performant in development and in production.
 
-<br>
-![Flutter logo](https://res.cloudinary.com/jomazu/image/upload/w_0.15,c_scale/v1571540625/jomazu/logos/logo_lockup_flutter_horizontal.png)
-
-<br>
 [Flutter](https://flutter.dev/) is an open-source UI toolkit created by Google and powered by Dart. It is used to create beautiful, natively compiled (iOS, Android) apps for [mobile](https://flutter.dev/docs), [web](https://flutter.dev/web), and [desktop](https://github.com/flutter/flutter/wiki/Desktop-shells) from a single codebase.
 
