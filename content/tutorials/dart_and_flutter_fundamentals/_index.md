@@ -38,4 +38,4 @@ Dart...
 <br>
 
 ## Flutter's Reactive Framework
-[Widgets](https://flutter.dev/docs/development/ui/widgets-intro) are the foundation of Flutter apps. A widget is a description of part of a user interface.
+[Widgets](https://flutter.dev/docs/development/ui/widgets-intro) are the foundation of Flutter apps. A widget is a description of part of a user interface. Nearly everything is a widget, written in Dart.
