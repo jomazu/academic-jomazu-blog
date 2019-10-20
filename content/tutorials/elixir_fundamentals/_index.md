@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: About Erlang and Elixir
 summary: Why Erlang and Elixir.
-weight: 4
+weight: 5
 
 # Page metadata.
 title: Overview
@@ -18,11 +18,12 @@ type: docs  # Do not modify.
 menu:
   elixir_fundamentals:
     name: Overview
-    weight: 4
+    weight: 5
 ---
 
 <br>
-## About Erlang
+![Erlang logo](https://res.cloudinary.com/jomazu/image/upload/w_0.20,c_scale/v1571541788/jomazu/logos/Erlang_logo.png)
+
 [Erlang](https://www.erlang.org/) is a general-purpose development platform for building scalable and reliable systems that constantly provide service with little or no downtime.
 
 >Conceived in the mid-1980s by [Ericsson](https://www.ericsson.com/en/news/2018/5/erlang-celebrates-20-years-as-open-source), a Swedish telecom giant, Erlang was driven by the needs of the company's own telecom systems, where properties like reliability, responsiveness, scalability, and constant availability were imperative (Juric, 2019, p. 1). 

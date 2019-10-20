@@ -21,21 +21,22 @@ menu:
     weight: 3
 ---
 
-<br>
-## About 
-Developed by Google, [Dart](https://dart.dev) is a client-optimized language for fast apps on any platform. Dart powers [Flutter](https://flutter.dev/), Google's open-source UI toolkit for beautiful, natively compiled (iOS, Android) apps for [mobile](https://flutter.dev/docs), [web](https://flutter.dev/web), and [desktop](https://github.com/flutter/flutter/wiki/Desktop-shells) from a single codebase.
+![Dart logo](https://res.cloudinary.com/jomazu/image/upload/w_0.25,c_scale/v1571540625/jomazu/logos/logo_lockup_dart_horizontal.png)
+The [Dart](https://dart.dev) programming language was developed by Google and designed by [Lars Bak](https://en.wikipedia.org/wiki/Lars_Bak_(computer_programmer)) and [Kasper Lund](http://verdich.dk/kasper/) (both instrumental in the creation of Chrome's V8 engine) - initially released in 2013. It was built to create fast apps that can run on any platform.
 
-Dart...
+A sampling of Dart's features...
 
-- Is a terse, strongly-typed, object-oriented language.
-- Will feel familiar if you have experience with languages like Swift, C#, Java or JavaScript.
+- A terse, strongly-typed, object-oriented language.
+- Feels familiar if you have experience with languages like [Swift](https://swift.org/), [C#](https://docs.microsoft.com/en-us/dotnet/csharp/), [Java](https://docs.oracle.com/javase/tutorial/index.html) or [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide).
 - Compiles to ARM & x64 machine code for mobile, desktop, and backend. Or compiles to JavaScript for the web.
 - Supports both JIT (just-in-time) and AOT (ahead-of-time) compilation.
   - JIT code is continuously recompiled directly on the device, allowing hot reload.
   - AOT code is compiled directly to native ARM code, leading to fast startup and predictable performance.
-- Is performant in development and in production.
+- Performant in development and in production.
 
 <br>
+![Flutter logo](https://res.cloudinary.com/jomazu/image/upload/w_0.15,c_scale/v1571540625/jomazu/logos/logo_lockup_flutter_horizontal.png)
 
-## Flutter's Reactive Framework
-[Widgets](https://flutter.dev/docs/development/ui/widgets-intro) are the foundation of Flutter apps. A widget is a description of part of a user interface. Nearly everything is a widget, written in Dart.
+<br>
+[Flutter](https://flutter.dev/) is an open-source UI toolkit created by Google and powered by Dart. It is used to create beautiful, natively compiled (iOS, Android) apps for [mobile](https://flutter.dev/docs), [web](https://flutter.dev/web), and [desktop](https://github.com/flutter/flutter/wiki/Desktop-shells) from a single codebase.
+
