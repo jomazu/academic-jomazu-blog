@@ -23,7 +23,7 @@ menu:
 
 <br>
 ## About 
-Developed by Google, [Dart](https://dart.dev) is a client-optimized language for fast apps on any platform. Dart powers [Flutter](https://flutter.dev/), Google's UI toolkit for beautiful, natively compiled (iOS, Android) apps for [mobile](https://flutter.dev/docs), [web](https://flutter.dev/web), and [desktop](https://github.com/flutter/flutter/wiki/Desktop-shells) from a single codebase.
+Developed by Google, [Dart](https://dart.dev) is a client-optimized language for fast apps on any platform. Dart powers [Flutter](https://flutter.dev/), Google's open-source UI toolkit for beautiful, natively compiled (iOS, Android) apps for [mobile](https://flutter.dev/docs), [web](https://flutter.dev/web), and [desktop](https://github.com/flutter/flutter/wiki/Desktop-shells) from a single codebase.
 
 Dart...
 
