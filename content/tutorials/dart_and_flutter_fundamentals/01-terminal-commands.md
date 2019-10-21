@@ -15,13 +15,21 @@ menu:
 weight: 1
 ---
 <br>
+Documentation Links:
 
+- [Flutter Documentation](https://flutter.dev/docs)
+- [Dart Documentation](https://dart.dev/guides)
+
+<br>
 Check the current version of **Flutter** and **Dart** running on your machine.
 ```bash
 $ flutter --version
 ```
+
 <br>
 Check your environment to see if there are any dependencies you need to install to complete the **Flutter** setup. A report will be displayed to the terminal window.
 ```bash
 $ flutter doctor
 ```
+
+<br>
