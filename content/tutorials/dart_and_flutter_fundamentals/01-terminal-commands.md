@@ -30,6 +30,11 @@ weight: 1
 - [Draw.io](https://www.draw.io/)
 
 <br>
+## App Icon Generator
+
+- [AppIcon.co](https://appicon.co/)
+
+<br>
 ## Terminal Commands
 
 Check the current version of **Flutter** and **Dart** running on your machine.
