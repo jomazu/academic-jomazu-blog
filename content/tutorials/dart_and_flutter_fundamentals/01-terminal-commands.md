@@ -18,22 +18,31 @@ weight: 1
 ## Documentation Links
 
 - [Flutter Documentation](https://flutter.dev/docs)
-  - [Material Design color system](https://material.io/design/color/#)
-  - [Material Components widgets](https://flutter.dev/docs/development/ui/widgets/material)
-  - [Scaffold class](https://api.flutter.dev/flutter/material/Scaffold-class.html)
   - [AppBar class](https://api.flutter.dev/flutter/material/AppBar-class.html)
+  - [Material Components widgets](https://flutter.dev/docs/development/ui/widgets/material)
+  - [Material Design color system](https://material.io/design/color/#)
+  - [Scaffold class](https://api.flutter.dev/flutter/material/Scaffold-class.html)
 - [Dart Documentation](https://dart.dev/guides)
 
-<br>
+---
 ## Flowcharts and Diagrams
 
 - [Draw.io](https://www.draw.io/)
 
-<br>
+---
 ## App Icon Generator
 
-- [AppIcon.co](https://appicon.co/)
+- [App Icon](https://appicon.co/)
 
+---
+## Images and Icons
+
+- [Canva](https://www.canva.com/)
+- [Icons8](https://icons8.com/)
+- [Noun Project](https://thenounproject.com/)
+- [Vecteezy](https://www.vecteezy.com/)
+
+---
 <br>
 ## Terminal Commands
 
