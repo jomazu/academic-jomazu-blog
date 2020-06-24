@@ -24,8 +24,9 @@ bio: Thank you for visiting my site! #I hope you enjoy the reflective tapestry o
 
 interests:
 - Blockchain Technology
-- Data Analytics
-- Functional Programming
+- Go Programming Language
+- Internet of Things (IoT)
+- Serverless Computing
 - Web Development
 
 education:
