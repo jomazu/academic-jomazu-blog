@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Go
 summary: Google's Go (golang) programming language.
-weight: 4
+weight: 2
 
 # Page metadata.
 title: Overview
@@ -18,7 +18,7 @@ type: docs  # Do not modify.
 menu:
   go:
     name: Overview
-    weight: 4
+    weight: 2
 ---
 
 ## Go
