@@ -25,11 +25,11 @@ menu:
 
 The Java Programming Language is a gerneral-purpose, concurrent, strongly-typed, class-based object-oriented language. It is normally compiled to the bytecode instruction set and binary format defined in the Java Virtual Machine Specification.
 
-***Program***
+## What is a Computer Program?
 
 A Computer Program is a List of Instructions given to a computer on how to perform a given task.
 
-***Methods***
+## What are Methods?
 
 Methods are Named Blocks of Instructions. For instance, a List of Instructions for changing a tire can be broken down into four (4) Named Blocks of Intructions (Methods):
 
@@ -42,31 +42,6 @@ Each Method contains specific steps (details) for completing a task. These detai
 
 The starting point in every Java Program is the **Main Method**, which is where you would **Call** your Methods. For example, in the changing a tire program, the Methods for Park Car, Get Tools, Change Tire, or Return Tools would be **Called** within the **Main Method**. A Method is a container of Instructions.
 
-***Class***
+## What is a Class?
 
 A Class is a place where you define your Methods, it is a container of Methods.
-
-This tutorial focuses on:
-
-* **Java Basics**
-  * `Variables` and Data Types
-  * Working with `Arrays`
-  * `If Else` Statements and `Switch` Conditions
-  * `Methods`
-  * `Access Modifiers` and `Static References`
-* **Object Orientation Basics**
-  * `Class` and `Object`
-  * Program Flow and using `The Constructor`
-  * Java Memory of Stack + Heap and Reference & Instance Variables
-  * Application Runtime
-  * `Inheritance`
-  * `Interfaces` and `Abstractions`
-  * `Abstract Classes`
-* **Control Flow, Looping & File Processing**
-  * String Manipulation Methods
-  * `While` Loops
-  * `For` Loops
-  * Nested `For` Loops
-  * File Processing w/Exception Handling & Keyboard Input
-  * Buffered File Reader w/Try Catch and Finally
-  
