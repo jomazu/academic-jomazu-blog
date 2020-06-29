@@ -26,21 +26,24 @@ menu:
 The Java Programming Language is a gerneral-purpose, concurrent, strongly-typed, class-based object-oriented language. It is normally compiled to the bytecode instruction set and binary format defined in the Java Virtual Machine Specification.
 
 ***Program***
-> A Computer Program is a List of Instructions given to a computer on how to perform a given task.
+
+A Computer Program is a List of Instructions given to a computer on how to perform a given task.
 
 ***Methods***
-> Methods are Named Blocks of Instructions. For instance, a List of Instructions for changing a tire can be broken down into four (4) Named Blocks of Intructions (Methods):
+
+Methods are Named Blocks of Instructions. For instance, a List of Instructions for changing a tire can be broken down into four (4) Named Blocks of Intructions (Methods):
 1. Park Car
 2. Get Tools
 3. Change Tire
 4. Return Tools
 
-> Each Method contains specific steps (details) for completing a task. These details are wrapped in the Method. Thus, Methods are used to organize a long list of instructions in a Computer Program into manageable Blocks.
+Each Method contains specific steps (details) for completing a task. These details are wrapped in the Method. Thus, Methods are used to organize a long list of instructions in a Computer Program into manageable Blocks.
 
-> The starting point in every Java Program is the **Main Method**, which is where you would **Call** your Methods. For example, in the changing a tire program, the Methods for Park Car, Get Tools, Change Tire, or Return Tools would be **Called** within the **Main Method**. A Method is a container of Instructions.
+The starting point in every Java Program is the **Main Method**, which is where you would **Call** your Methods. For example, in the changing a tire program, the Methods for Park Car, Get Tools, Change Tire, or Return Tools would be **Called** within the **Main Method**. A Method is a container of Instructions.
 
 ***Class***
-> A Class is a place where you define your Methods, it is a container of Methods.
+
+A Class is a place where you define your Methods, it is a container of Methods.
 
 This tutorial focuses on:
 
