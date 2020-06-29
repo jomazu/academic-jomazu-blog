@@ -32,10 +32,7 @@ A Computer Program is a List of Instructions given to a computer on how to perfo
 ***Methods***
 
 Methods are Named Blocks of Instructions. For instance, a List of Instructions for changing a tire can be broken down into four (4) Named Blocks of Intructions (Methods):
-<<<<<<< HEAD
 
-=======
->>>>>>> fb47f600ccfe749fbcb91b4301f31d90414740bd
 1. Park Car
 2. Get Tools
 3. Change Tire
