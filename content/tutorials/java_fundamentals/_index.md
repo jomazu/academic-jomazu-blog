@@ -26,22 +26,34 @@ menu:
 The Java Programming Language is a gerneral-purpose, concurrent, strongly-typed, class-based object-oriented language. It is normally compiled to the bytecode instruction set and binary format defined in the Java Virtual Machine Specification.
 
 ## What is a Computer Program?
-
 A Computer Program is a List of Instructions given to a computer on how to perform a given task.
 
 ## What are Methods?
-
-Methods are Named Blocks of Instructions. For instance, a List of Instructions for changing a tire can be broken down into four (4) Named Blocks of Intructions (Methods):
+[Methods](https://www.geeksforgeeks.org/methods-in-java/) are Named Blocks of Instructions. For instance, a List of Instructions for changing a tire can be broken down into four (4) Named Blocks of Intructions (Methods):
 
 1. Park Car
 2. Get Tools
 3. Change Tire
 4. Return Tools
 
-Each Method contains specific steps (details) for completing a task. These details are wrapped in the Method. Thus, Methods are used to organize a long list of instructions in a Computer Program into manageable Blocks.
+Each Method contains specific steps (details) for completing a task. These details are wrapped in the Method. Thus, Methods are used to organize a long list of instructions in a Computer Program into manageable Blocks. Methods are used to achieve code reusability - write a method once and use it many times.
 
 The starting point in every Java Program is the **Main Method**, which is where you would **Call** your Methods. For example, in the changing a tire program, the Methods for Park Car, Get Tools, Change Tire, or Return Tools would be **Called** within the **Main Method**. A Method is a container of Instructions.
 
-## What is a Class?
+```java
+main()
+```
 
-A Class is a place where you define your Methods, it is a container of Methods.
+```java
+class Example{  
+    public static void main(String args[]){  
+     System.out.println("Hello, Jomazu!");  
+    }  
+}  
+```
+
+## What is a Class?
+A [Class](https://docs.oracle.com/javase/tutorial/java/concepts/class.html) is a place where you define your Methods, it is a container of Methods.
+
+## What is a Package?
+A [Package](https://docs.oracle.com/javase/tutorial/java/concepts/package.html) is a namespace that organizes a set of related classes and interfaces. Conceptually you can think of packages as being similar to different folders on your computer. You might keep HTML pages in one folder, images in another, and scripts or applications in yet another. Because software written in the Java programming language can be composed of hundreds or thousands of individual classes, it makes sense to keep things organized by placing related classes and interfaces into packages.
