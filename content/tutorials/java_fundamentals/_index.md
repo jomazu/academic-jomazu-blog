@@ -63,5 +63,21 @@ A [Class](https://docs.oracle.com/javase/tutorial/java/concepts/class.html) is a
   * The `this` keyword and the `dot` operator is used to access the attribute variable for an object you are constructing. The `this` keyword helps Java make a distinction between the attribute variable and the parameter variable.
   * A constructor is called like any other function. The only difference is that because you are creating a new instance, you have to use the `new` keyword.
 
+## Instance Methods vs. Class Methods
+
+* **Instance Methods** are also referred to as (non-static) methods since you need an instance to use them. 
+
+> Example:
+> ```java
+> String studentFirstName = "Kayla";
+> System.out.println(studentFirstName.charAt(1));
+> ```
+> ```terminal
+> > a
+> ```
+> Since the `.charAt()` method is accessed through a **String instance**, it is an **instance** (non-static) method instead of a **class** (static) method.
+
+* **Class Methods** are referred to as (static) methods because you do not need an instance to use them.
+
 ## What is a Package?
 A [Package](https://docs.oracle.com/javase/tutorial/java/concepts/package.html) is a namespace that organizes a set of related classes and interfaces. Conceptually you can think of packages as being similar to different folders on your computer. You might keep HTML pages in one folder, images in another, and scripts or applications in yet another. Because software written in the Java programming language can be composed of hundreds or thousands of individual classes, it makes sense to keep things organized by placing related classes and interfaces into packages.

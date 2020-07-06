@@ -87,3 +87,63 @@ public class Main {
 > Your annual salary is $30240.0
 ```
 ---
+## Triangle Instance with Constructor
+
+```java
+// The Triangle Class blueprint
+
+// Constructor method
+public class Triangle {
+    double base;
+    double height;
+    double sideLenOne;
+    double sideLenTwo;
+    double sideLenThree;
+
+    public Triangle(double base,
+                    double height,
+                    double sideLenOne,
+                    double sideLenTwo,
+                    double sideLenThree) {
+        this.base = base;
+        this.height = height;
+        this.sideLenOne = sideLenOne;
+        this.sideLenTwo = sideLenTwo;
+        this.sideLenThree = sideLenThree;
+    }
+
+ // Find Area function (not a constructor)
+    public double findArea() {
+        return (this.base * this.height) / 2;
+    }
+
+}
+```
+
+```java
+public class Main {
+
+    public static void main(String[] args) {
+        Triangle triangleA = new Triangle(15, 8,15, 8, 17);
+        Triangle triangleB =  new Triangle(3, 2.598, 3, 3, 3);
+
+        double triangleAArea = triangleA.findArea();
+        System.out.println("The area of triangle 'A' is: " + triangleAArea);
+
+        double triangleBArea = triangleB.findArea();
+        System.out.println("The area of triangle 'B' is: " + triangleBArea);
+
+        System.out.println("The length of side three for triangle 'A' is: " + triangleA.sideLenThree);
+        System.out.println("The base for triangle 'B' is: " + triangleB.base);
+
+    }
+}
+```
+
+```terminal
+> The area of triangle 'A' is: 60.0
+> The area of triangle 'B' is: 3.897
+> The length of side three for triangle 'A' is: 17.0
+> The base for triangle 'B' is: 3.0
+```
+---
