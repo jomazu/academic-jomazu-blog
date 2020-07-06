@@ -22,9 +22,7 @@ weight: 2
 public class Main {
 
 // Create the Function
-	public static double calculateTotalMealPrice(double listedMealPrice, 
-												 double tipRate, 
-												 double taxRate) {
+	public static double calculateTotalMealPrice(double listedMealPrice, double tipRate, double taxRate) {
 		double tip = tipRate * listedMealPrice;
 		double tax = taxRate * listedMealPrice;
 		double result = listedMealPrice + tip + tax;
@@ -55,9 +53,7 @@ public class Main {
 public class Main {
 
 // Create the Function
-		public static double salaryCalculator(double hoursPerWeek,
-											  double amountPerHour, 
-											  int vacationDays) {
+		public static double salaryCalculator(double hoursPerWeek, double amountPerHour, int vacationDays) {
 
 			if (hoursPerWeek < 0) {
 				return -1;
@@ -105,11 +101,7 @@ public class Triangle {
     double sideLenTwo;
     double sideLenThree;
 
-    public Triangle(double base,
-                    double height,
-                    double sideLenOne,
-                    double sideLenTwo,
-                    double sideLenThree) {
+    public Triangle(double base, double height, double sideLenOne, double sideLenTwo, double sideLenThree) {
         this.base = base;
         this.height = height;
         this.sideLenOne = sideLenOne;
