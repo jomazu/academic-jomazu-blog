@@ -7,7 +7,7 @@ weight: 3
 # Page metadata.
 title: Overview
 date: 2019-11-21T12:57:49-07:00
-lastmod: 2019-11-21T12:57:49-07:00
+lastmod: 2020-07-05T12:57:49-07:00
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -53,7 +53,15 @@ class Example{
 ```
 
 ## What is a Class?
-A [Class](https://docs.oracle.com/javase/tutorial/java/concepts/class.html) is a place where you define your Methods, it is a container of Methods.
+A [Class](https://docs.oracle.com/javase/tutorial/java/concepts/class.html) is a place where you define your Methods, it is a container of Methods. A Class is a user-defined blueprint that has a set of attributes and behaviors  that define the object they are supposed to represent.
+
+* **Attributes** (Properties) are variables that will hold a particular value within a class.
+* **Behaviors** (Methods) are functions that are related to a class.
+* **Instance** is an object created from a class blueprint.
+* **Constructor** is a special method (i.e. function) or behavior inside every class that creates and initializes instances.
+  * The constructor may or may not take inputs. The name of the constructor is always the same name as the Class.
+  * The `this` keyword and the `dot` operator is used to access the attribute variable for an object you are constructing. The `this` keyword helps Java make a distinction between the attribute variable and the parameter variable.
+  * A constructor is called like any other function. The only difference is that because you are creating a new instance, you have to use the `new` keyword.
 
 ## What is a Package?
 A [Package](https://docs.oracle.com/javase/tutorial/java/concepts/package.html) is a namespace that organizes a set of related classes and interfaces. Conceptually you can think of packages as being similar to different folders on your computer. You might keep HTML pages in one folder, images in another, and scripts or applications in yet another. Because software written in the Java programming language can be composed of hundreds or thousands of individual classes, it makes sense to keep things organized by placing related classes and interfaces into packages.

@@ -15,14 +15,16 @@ menu:
 weight: 2
 ---
 
-## Code Examples
 
-Example #1
+## Tip Calculator
 
 ```java
 public class Main {
 
-	public static double calculateTotalMealPrice(double listedMealPrice, double tipRate, double taxRate) {
+// Create the Function
+	public static double calculateTotalMealPrice(double listedMealPrice, 
+												 double tipRate, 
+												 double taxRate) {
 		double tip = tipRate * listedMealPrice;
 		double tax = taxRate * listedMealPrice;
 		double result = listedMealPrice + tip + tax;
@@ -31,7 +33,8 @@ public class Main {
 	}
 
 	public static void main(String[] args) {
-		double groupTotalMealPrice = calculateTotalMealPrice(100, .2, .08);
+// Call the Function
+		double groupTotalMealPrice = calculateTotalMealPrice(100, 0.20, 0.08);
 		System.out.println("Total meal price for group: $" + groupTotalMealPrice);
 
 		double individualMealPrice = groupTotalMealPrice / 5;
@@ -39,4 +42,48 @@ public class Main {
 
 	}
 }
+
 ```
+
+```terminal
+> Total meal price per individual: $25.6
+```
+---
+## Salary Calculator
+
+```java
+public class Main {
+
+// Create the Function
+		public static double salaryCalculator(double hoursPerWeek,
+											  double amountPerHour, 
+											  int vacationDays) {
+
+			if (hoursPerWeek < 0) {
+				return -1;
+			}
+			
+			if (amountPerHour < 0) {
+				return -1;
+			}
+			
+			double weeklyPaycheck = hoursPerWeek * amountPerHour;
+			double unpaidTime = vacationDays * amountPerHour * 8;
+			return (weeklyPaycheck * 52) - unpaidTime;
+			
+		}
+		
+// Call the Function
+		public static void main(String[] args) {
+			double salary = salaryCalculator(40, 15, 8);
+			System.out.println("Your annual salary is $" + salary);
+
+		}
+}
+
+```
+
+```terminal
+> Your annual salary is $30240.0
+```
+---
