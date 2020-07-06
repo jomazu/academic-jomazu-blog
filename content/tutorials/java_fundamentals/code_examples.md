@@ -94,6 +94,11 @@ public class Main {
 
 // Constructor method
 public class Triangle {
+
+    // Static variable
+    static int numOfSides = 3;
+
+    // Non-Static variables
     double base;
     double height;
     double sideLenOne;
@@ -116,7 +121,6 @@ public class Triangle {
     public double findArea() {
         return (this.base * this.height) / 2;
     }
-
 }
 ```
 
@@ -133,8 +137,10 @@ public class Main {
         double triangleBArea = triangleB.findArea();
         System.out.println("The area of triangle 'B' is: " + triangleBArea);
 
-        System.out.println("The length of side three for triangle 'A' is: " + triangleA.sideLenThree);
-        System.out.println("The base for triangle 'B' is: " + triangleB.base);
+        System.out.println("The length of side three (non-static variable) for triangle 'A' is: " + triangleA.sideLenThree);
+        System.out.println("The base (non-static variable) for triangle 'B' is: " + triangleB.base);
+
+        System.out.println("'NumOfSides' (static variable) = " + Triangle.numOfSides);
 
     }
 }
@@ -143,7 +149,8 @@ public class Main {
 ```terminal
 > The area of triangle 'A' is: 60.0
 > The area of triangle 'B' is: 3.897
-> The length of side three for triangle 'A' is: 17.0
-> The base for triangle 'B' is: 3.0
+> The length of side three (non-static variable) for triangle 'A' is: 17.0
+> The base (non-static variable) for triangle 'B' is: 3.0
+> 'NumOfSides' (static variable) = 3
 ```
 ---
