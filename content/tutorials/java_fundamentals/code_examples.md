@@ -87,7 +87,7 @@ public class Main {
 > Your annual salary is $30240.0
 ```
 ---
-## Triangle Instance with Constructor
+## Triangle Instance
 
 ```java
 // The Triangle Class blueprint
