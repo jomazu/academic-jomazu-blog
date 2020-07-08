@@ -19,6 +19,7 @@ weight: 1
 To start an interactive Elixir session, type `iex` at the command prompt.
 
 To exit IEx, type either:
+
 * `Ctrl + c` (twice)
 * `Ctrl + \` (once)
 
