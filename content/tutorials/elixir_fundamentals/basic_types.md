@@ -18,7 +18,7 @@ weight: 1
 ## Interactive Elixir
 To start an interactive Elixir session, type `iex` at the command prompt.
 
-To exit IEx, type either:
+To exit IEx, type either:  
 
 * `Ctrl + c` (twice)
 * `Ctrl + \` (once)
@@ -29,7 +29,11 @@ Once in the IEx session, type `h`, then hit `return` to view documentation for t
 Try running the following from IEx:
 
 ```ruby
-iex(1)> runtime_info :memory
+# Help on Functions handling input/output (IO)
+iex(1)> h IO
+
+# Print VM/runtime info for memory usage
+iex(2)> runtime_info :memory
 ```
 
 ## Basic Data Types
