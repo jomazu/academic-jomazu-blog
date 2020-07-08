@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Object Oriented Programming
 summary: The basics of Object Oriented Programming (OOP).
-weight: 5
+weight: 6
 
 # Page metadata.
 title: Overview
@@ -18,7 +18,7 @@ type: docs  # Do not modify.
 menu:
   object_oriented_programming:
     name: Overview
-    weight: 5
+    weight: 6
 ---
 
 <br>

@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Java Fundamentals
 summary: Getting Started with Java.
-weight: 3
+weight: 4
 
 # Page metadata.
 title: Overview
@@ -18,7 +18,7 @@ type: docs  # Do not modify.
 menu:
   java_fundamentals:
     name: Overview
-    weight: 3
+    weight: 4
 ---
 
 ![Java logo](https://res.cloudinary.com/jomazu/image/upload/w_0.4,c_scale/v1574364405/jomazu/logos/java_logo.png)
