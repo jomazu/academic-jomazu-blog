@@ -1,10 +1,10 @@
 ---
-title: Create New Project
-linktitle: Create New Project
+title: Create a New Project
+linktitle: Create a New Project
 toc: true
 type: docs
-date: 2020-08-07T12:57:49-07:00
-lastmod: 2020-08-07T12:57:49-07:00
+date: 2020-07-08T12:57:49-07:00
+lastmod: 2020-07-08T12:57:49-07:00
 draft: false
 menu:
   elixir_fundamentals:
@@ -15,10 +15,10 @@ menu:
 weight: 2
 ---
 
+
 ## Create a New Project
 Create a new Elixir project using:
 
-```ruby
+```bash
 $ mix new (project_name)
 ```
-
