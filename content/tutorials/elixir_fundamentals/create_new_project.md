@@ -16,8 +16,8 @@ weight: 2
 ---
 
 
-## Create a New Project
-Create a new Elixir project using:
+## New Project
+Create a new Elixir project using.
 
 ```bash
 $ mix new (project_name)
