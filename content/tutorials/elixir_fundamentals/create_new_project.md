@@ -19,6 +19,24 @@ weight: 2
 ## New Project
 Create a new Elixir project using.
 
-```bash
+```ini
 $ mix new (project_name)
+$ cd (project_name)
+$ tree
 ```
+
+The file `mix.exs` defines the configuration of your project. The source code lives under `lib/`.
+
+While in the top-level directory of the application (the one containing the `mix.exs` file), use this command to compile the application.
+
+```ini
+$ mix
+```
+
+Some helpful options and commands to use from the command prompt:
+
+* `mix help`
+* `mix help run`
+* `iex -h`
+* `elixir -h`
+
