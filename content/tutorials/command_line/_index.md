@@ -21,14 +21,12 @@ menu:
     weight: 1
 ---
 
-<br>
 Most computer Operating Systems (OS) provide a graphical user interface (GUI or "gooey") to interact with systems through point-and-click mouse movements. However, using the command-line interface (CLI) provides a more concise and powerful means to control a program or OS. Moreover, using programs with a CLI are usually easier to automate via scripting, which is a necessity for any serious developer, programmer, software engineer, or computer scientist.
 
 *Note: the words directory and folder are used synonymously.*
 
 ---
 
-<br>
 `pwd`  
 **P**rint the full filename of the current **w**orking **d**irectory.
 ```ini
@@ -36,7 +34,6 @@ jomazu:~/workspace/projects $ pwd
 /home/ubuntu/workspace/projects
 ```
 
-<br>
 `ls`  
 **L**i**s**t the contents of the current directory.
 ```ini
@@ -44,7 +41,6 @@ jomazu:~/workspace/client $ ls
 css/  img/  index.html  js/
 ```
 
-<br>
 `cd ..`  
 The **c**hange **d**irectory and double period combination will move to the parent directory of the current directory.
 ```ini
@@ -52,7 +48,6 @@ jomazu:~/workspace/client $ cd ..
 jomazu:~/workspace $
 ```
 
-<br>
 `cd ~`  
 The **c**hange **d**irectory and **~** (tilde) combination will return to the *home directory*. It is an alternative to using the *$HOME* command.
 ```ini
@@ -60,7 +55,6 @@ jomazu:~/workspace/client $ cd ~
 jomazu:~ $
 ```
 
-<br>
 `cd /`  
 The **c**hange **d**irectory and **/** (forward slash) combination will return to the *root directory*.
 
@@ -69,10 +63,8 @@ jomazu:~/workspace/client $ cd /
 jomazu:/ $
 ```
 
-<br>
 ## Creating Directories
 
-<br>
 `mkdir`  
 **M**a**k**e **dir**ectory is used to create a new directory in the current directory or in another directory. It can also create multiple directories by providing a list of file paths, separated by spaces.
 
@@ -93,10 +85,8 @@ jomazu:~/workspace $ ls dev_projects/
 ex_1/  ex_2/  test_1/
 ```
 
-<br>
 ## Creating Files
 
-<br>
 `touch`  
 **Touch** can create a new file in the current directory or another directory. It can also create multiple files by providing a list of file paths, separated by spaces.
 
@@ -117,7 +107,6 @@ jomazu:~/workspace $ ls dev_env/
 ex1.py  ex2.py  hello-world.py
 ```
 
-<br>
 `ls -lSh`  
 Use **ls** (list directory contents), the **-l** (long listing format), **-S** (sort by file size), and **-h** (human readable) flags to view additional information.
 
@@ -131,10 +120,8 @@ total 4.0K
 -rw-rw-r-- 1 user user 19 Feb 19 06:41 example.py
 ```
 
-<br>
 ## Removing Files
 
-<br>
 `rm`  
 The **r**e**m**ove command is used to delete a single file or multiple files.
 
@@ -154,10 +141,8 @@ jomazu:~/workspace/notes $ ls
 note_3
 ```
 
-<br>
 ## Removing Directories
 
-<br>
 `rmdir`  
 The <span class="dark-pink fw9">r</span>e<span class="dark-pink fw9">m</span>ove <span class="dark-pink fw9">dir</span>ectory command will only delete a completely empty directory.
 
@@ -170,7 +155,6 @@ jomazu:~/workspace/dev_projects $ ls
 ex_1/  ex_2/
 ```
 
-<br>
 `rm -rf`  
 The **rm** command in conjunction with the **-rf** flag will delete the directory and all files and folders inside. This is done with *recursive force*, using an approach called *recursion*.  
 
@@ -185,7 +169,6 @@ jomazu:~/workspace/dev_projects $ ls
 ex_2/
 ```
 
-<br>
 ## Summary  
 
 :heavy_check_mark: `ls -lSh` - list a directory's contents, sorted by file size.  

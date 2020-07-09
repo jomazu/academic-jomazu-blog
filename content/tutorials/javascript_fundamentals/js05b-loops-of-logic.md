@@ -15,7 +15,6 @@ menu:
 weight: 8
 ---
 
-<br>
 ## Requirements
 The requirements for this chapter:  
 
@@ -25,7 +24,6 @@ The requirements for this chapter:
 
 In this section we will use `FOR LOOPS` to fix `.displayTodos` and make them work properly.  
 
-<br>
 ## .displayTodos
 We want the `.displayTodos` method to show the `.todoText` property.  
 
@@ -78,12 +76,12 @@ My Todos:
 Product 1
 Product 2
 ```
-<br>
+
 Recap...  
 
 Note, we removed `${this.todos}` from the original `console.log` statement, because it was printing out objects to the console and was not very useful. Then we added a `FOR LOOP` to iterate through the todos array in the todoList object, and display the todoText for each index of the array.  
 
-<br>
+
 ## .displayTodos (if empty)
 We want `.displayTodos` to tell us if `.todos` is empty - i.e. no todos in the list.  
 
@@ -159,7 +157,6 @@ Test item added
 Your TODO List is empty!
 ```
 
-<br>
 ## .displayTodos (show completed)
 Recall, each todo object has a completed property that is a boolean. We want to have `.displayTodos` to show whether a todo has been completed or not.  
 

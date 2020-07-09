@@ -15,7 +15,6 @@ menu:
 weight: 7
 ---
 
-<br>
 ## FOR LOOP
 The `for loop` allows you to repeat a certain amount of code any number of times.  
 
@@ -57,7 +56,6 @@ Number: 6
 Number: 8
 ```
 
-<br>
 ## LOOPING over Arrays
 Example using an array:  
 ```javascript

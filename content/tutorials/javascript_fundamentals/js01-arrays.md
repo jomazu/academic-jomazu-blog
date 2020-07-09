@@ -15,13 +15,11 @@ menu:
 weight: 1
 ---
 
-<br>
 An array (list) is an ordered collection of data, used to store multiple values in a single variable. In the JavaScript language, arrays are considered objects. Objects have properties and methods:  
 
 * **Properties** - pieces of meta information about an object that can be retrieved and used.  
 * **Methods** - functions that belong to an object.  
 
-<br>
 ## Requirements
 Arrays needed for building a `TODO` application:  
 
@@ -31,7 +29,6 @@ Arrays needed for building a `TODO` application:
 - [x] It should have a way to **CHANGE** a todo  
 - [x] It should have a way to **DELETE** a todo  
 
-<br>
 ## STORE
 Create a place to **STORE** todos.  
 
@@ -42,7 +39,6 @@ Example:
 > var todos = ['item 1', 'item 2', 'item 3'];
 ```
 
-<br>
 ## DISPLAY
 Create a way to **DISPLAY** todos.  
 
@@ -62,7 +58,6 @@ Example:
 My Todos: [ 'item 1', 'item 2', 'item 3' ]
 ```
 
-<br>
 ## ADD
 Create a way to **ADD** todos.  
 
@@ -77,7 +72,6 @@ Example:
 ["item 1", "item 2", "item 3", "item 4"]
 ```
 
-<br>
 ## CHANGE
 Create a way to **CHANGE** todos.  
 
@@ -112,7 +106,6 @@ Example:
 ["item 1 updated", "item 2", "item 3", "item 4", "item 5 updated"]
 ```
 
-<br>
 ## DELETE
 Create a way to **DELETE** todos.  
 

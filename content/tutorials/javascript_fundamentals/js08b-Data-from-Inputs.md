@@ -15,7 +15,6 @@ menu:
 weight: 14
 ---
 
-<br>
 ## Requirements
 The requirements for this chapter:  
 
@@ -26,7 +25,6 @@ The requirements for this chapter:
 
 The requirements in this section are different from previous sections, because they require inputs - i.e. enable someone to type something into a text box and then click it. Each of the methods indicated above requires an argument. 
 
-<br>
 ## addTodo
 Provide text for the new todo object.  
 
@@ -109,7 +107,6 @@ var handlers = {
 };
 ```
 
-<br>
 ## changeTodo
 Tell the changeTodo method which todo to change, and then give it some new text.  
 
@@ -220,7 +217,6 @@ var handlers = {
 };
 ```
 
-<br>
 ## deleteTodo
 Tell the deleteTodo method which todo to delete.  
 
@@ -350,7 +346,6 @@ var handlers = {
 };
 ```
 
-<br>
 ## toggleCompleted
 Tell the toggleCompleted method which todo to change to completed.  
 
@@ -500,7 +495,6 @@ var handlers = {
 };
 ```
 
-<br>
 ## Re-order Handlers Methods
 Re-ordered the Handlers methods to coincide with the todoList object order sequence.  
 

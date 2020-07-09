@@ -21,7 +21,6 @@ menu:
     weight: 3
 ---
 
-<br>
 
 ![Gopher logo](https://res.cloudinary.com/jomazu/image/upload/w_0.20,c_scale/v1593048779/jomazu/logos/go-logo-blue.svg)
 

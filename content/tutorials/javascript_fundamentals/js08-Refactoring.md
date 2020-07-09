@@ -15,7 +15,6 @@ menu:
 weight: 13
 ---
 
-<br>
 ## Refactoring
 Code refactoring is the process of restructuring existing computer code without changing its external behavior.  
 
@@ -27,7 +26,6 @@ For instance, refactoring makes your code...
 - A little easier to understand  
 - Neater in appearance  
 
-<br>
 ## Refactoring the Buttons
 First, review the original way that we created and called our button methods.  
 

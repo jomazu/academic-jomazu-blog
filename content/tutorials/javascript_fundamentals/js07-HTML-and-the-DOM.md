@@ -15,7 +15,6 @@ menu:
 weight: 11
 ---
 
-<br>
 ## Requirements
 The requirements for this chapter:  
 
@@ -23,7 +22,6 @@ The requirements for this chapter:
 - Clicking "Display todos" should run `todoList.displayTodos();`  
 - Clicking "Toggle all" should run `todoList.toggleAll();`  
 
-<br>
 ## HTML
 Hyper-Text Markup Language ([HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)) is a language programmer's use for describing web pages.  
 
@@ -57,7 +55,6 @@ In Plunker, open `index.html` to see the following HTML example:
 </html>
 ```
 
-<br>
 ## Document Object Model
 The Document Object Model ([DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)) connects web pages to scripts or programming languages - usually JavaScript. The DOM model represents a document with a logical tree. Each branch of the tree ends in a node, and each node contains objects. DOM methods allow programmatic access to the tree; with them you can change the document's structure, style or content. Nodes can have event handlers attached to them. Once an event is triggered, the event handlers get executed.  
 
@@ -65,7 +62,6 @@ In laymans terms, the DOM is your browser's interpretation of your HTML.
 
 - `document` - represents the DOM.  
 
-<br>
 ## Button
 In this section we will begin creating a UI for user's to interact with - something that they can click on (i.e. **BUTTONS**) and/or type into right on the page, without having to use the console.  
 
@@ -107,7 +103,6 @@ In this section we will begin creating a UI for user's to interact with - someth
 </html>
 ```
 
-<br>
 ## Display Todos
 In this section, we want to:  
 1) Get access to the display todos button.  
@@ -314,7 +309,6 @@ displayTodosButton.addEventListener('click', function() {
 
 ```
 
-<br>
 ## Toggle All
 In this step, we want to emulate what we did for the 'Display Todos' button, but for `Toggle All`.  
 

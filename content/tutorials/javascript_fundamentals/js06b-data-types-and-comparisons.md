@@ -15,7 +15,6 @@ menu:
 weight: 10
 ---
 
-<br>
 ## JavaScript Data Types
 - **OBJECTS** `{ }` - can be as complex as you want  
 
@@ -39,7 +38,6 @@ var todoList = {
   - Undefined - a value that hasn't been set  
   - Null - `Nothing`  
 
-<br>
 ## Comparisons with PRIMITIVES (Values)
 Strings  
 ```javascript
@@ -83,7 +81,6 @@ true
 true
 ```
 
-<br>
 ## Comparisons of OBJECTS (References)
 The following examples are FALSE, because the **REFERENCES** (addresses in memory) differ for each object.  
 

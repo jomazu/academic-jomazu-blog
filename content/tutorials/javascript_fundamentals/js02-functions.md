@@ -15,7 +15,6 @@ menu:
 weight: 2
 ---
 
-<br>
 Functions are just recipes. Generally speaking, a function is a code snippet (subprogram) that can be called by other code, by itself, or a variable that refers to the function.  
 
 When a function is called, arguments are passed to the function as input, and the function can optionally return an output.  
@@ -39,7 +38,6 @@ makeSalamiSandwich
 // Call the function
 makeSalamiSandwich();
 ```
-<br>
 
 ## Customizing Functions
 - [Parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function) - the names of the arguments to be passed to the function.  

@@ -21,3 +21,4 @@ Create a new Elixir project using:
 ```ruby
 $ mix new (project_name)
 ```
+

@@ -15,7 +15,6 @@ menu:
 weight: 5
 ---
 
-<br>
 ## Requirements
 The requirements for this chapter:
 
@@ -30,7 +29,6 @@ The requirements for this chapter:
 
 This helps to organize our code and ensure that everthing related to a Todo list is on a Todo list object. 
 
-<br>
 ## STORE
 **STORE** the `todos array` on an `object`.  
 
@@ -50,7 +48,6 @@ var todoList = {
 
 Now, you can access the Plunker data inside of your `PJS - V3` program.  
 
-<br>
 ## displayTodos
 Change the `displayTodos` function from a standalone function to a method on our `todoList` object.  
 
@@ -81,7 +78,6 @@ var todoList = {
 My Todos: item 1,item 2,item 3
 ```
 
-<br>
 ## addTodo
 Change the `addTodo` function from a standalone function to a method on our `todoList` object.  
 
@@ -121,7 +117,6 @@ My Todos: item 1,item 2,item 3
 My Todos: item 1,item 2,item 3,item 4
 ```
 
-<br>
 ## changeTodo
 Change the `changeTodo` function from a standalone function to a method on our `todoList` object.  
 
@@ -162,7 +157,6 @@ var todoList = {
 My Todos: plunker,item 2,item 3
 ```
 
-<br>
 ## deleteTodo
 Change the `deleteTodo` function from a standalone function to a method on our `todoList` object.  
 

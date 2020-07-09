@@ -15,7 +15,6 @@ menu:
 weight: 6
 ---
 
-<br>
 ## Requirements
 The requirements for this chapter:  
 
@@ -25,7 +24,6 @@ The requirements for this chapter:
 
 This section will also cover **Booleans**, which is a representation of true or false.  
 
-<br>
 ## todoList.addTodo
 Right now we are adding `todos` as text. We are going to change this, so that `addTodo` will add **objects**, instead of text to our todo array.  
 
@@ -83,7 +81,6 @@ My Todos: [object Object]
 [ { todoText: 'new todo item', completed: false } ]
 ```
 
-<br>
 ## todoList.changeTodo
 Now, we need to modify the `changeTodo` method, so that it changes just the `todoText` property on each todo object.  
 
@@ -119,7 +116,6 @@ My Todos: [object Object]
 [ { todoText: 'changed todo item', completed: false } ]
 ```
 
-<br>
 ## todoList.toggleCompleted
 Now, we need to add a method called `toggleCompleted` that changes the value of the completed property, which is a boolean value (true or false).  
 
@@ -199,7 +195,6 @@ My Todos: [object Object],[object Object]
   { todoText: '2nd todo item', completed: true } ]
 ```
 
-<br>
 ## Review
 We changed the structure of the array to be an array of objects, rather than an array of just text.  
 

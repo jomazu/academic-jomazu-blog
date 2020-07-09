@@ -15,7 +15,6 @@ menu:
 weight: 12
 ---
 
-<br>
 ## Using The Debugger (Step Through)
 In this section we will learn how to use the **Debugger** and how to apply it to the code.  
 
@@ -71,7 +70,6 @@ To jump out of the step function and back into normal execution mode, just selec
 
 Then, when finished with the `debugger`, simply remove `debugger;` from your code and save the file.  
 
-<br>
 ## todoList.displayTodos
 Run the **debugger** on the `displayTodos()` method, by running the program, and then calling the function from the console.  
 - `todoList.displayTodos();`  
@@ -93,7 +91,6 @@ displayTodos: function() {
   },
 ```
 
-<br>
 ## todoList.addTodo
 Run the **debugger** on the `addTodo()` method, by running the program, and then calling the function from the console.  
 - `todoList.addTodo('Running the debugger');`  
@@ -108,7 +105,6 @@ addTodo: function(todoText) {
   },
 ```
 
-<br>
 ## todoList.changeTodo
 Run the **debugger** on the `changeTodo()` method, by running the program, and then calling the function from the console.  
 - `todoList.addTodo('Change this item');`  
@@ -121,7 +117,6 @@ changeTodo: function(position, todoText) {
   },
 ```
 
-<br>
 ## todoList.deleteTodo
 Run the **debugger** on the `deleteTodo()` method, by running the program, and then calling the function from the console.  
 - `todoList.addTodo('Delete this junk!');`  
@@ -134,7 +129,6 @@ deleteTodo: function(position) {
   },
 ```
 
-<br>
 ## todoList.toggleCompleted
 Run the **debugger** on the `toggleCompleted()` method, by running the program, and then calling the function from the console.  
 - `todoList.addTodo('Toggle this');`  
@@ -148,7 +142,6 @@ toggleCompleted: function(position) {
   },
 ```
 
-<br>
 ## todoList.toggleAll
 Run the **debugger** on the `toggleAll()` method, by running the program, and then calling the function from the console. - `todoList.addTodo('This is true');`  
 - `todoList.toggleCompleted(0);`  
@@ -176,7 +169,6 @@ toggleAll: function() {
   }
 ```
 
-<br>
 ## Use the Debugger all the time
 The debugger is one of the most important weapons that you have at your disposal when programming.  
 
@@ -185,7 +177,6 @@ The debugger is one of the most important weapons that you have at your disposal
 3) Use it all the time and get good at using it, so that it becomes second nature.  
 4) You no longer need to wonder what is happening, by using the debugger you can see what is happening.  
 
-<br>
 ## Focus on Understanding
 Focus on understanding, stop worrying about building from scratch. Use the Debugger and ask questions on [Stack Overflow](https://stackoverflow.com/questions/tagged/javascript).  
    

@@ -15,7 +15,6 @@ menu:
 weight: 9
 ---
 
-<br>
 ## Requirements
 The requirements for this chapter:  
 
@@ -24,7 +23,6 @@ The requirements for this chapter:
 
 In this section, we are going to work on one feature that toggle's all the todos as complete or incomplete.  
 
-<br>
 ## .toggleAll  
 Case 1  
 
@@ -139,7 +137,6 @@ My Todos:
 ( ) item 2
 ```
 
-<br>
 ## .toggleAll  
 Case 2  
 

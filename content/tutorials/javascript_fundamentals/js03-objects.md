@@ -15,7 +15,6 @@ menu:
 weight: 4
 ---
 
-<br>
 [Objects](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics) are used in JavaScript to group related data and functions together.  
 
 Example of an object related to my computer.  
@@ -50,7 +49,6 @@ purchaseYear 2015
 2015
 ```
 
-<br>
 ## Objects and Functions
 There is a relationship between objects and functions.  
 Note, you can actually place functions on objects.  
@@ -92,7 +90,6 @@ Lastly, when you have a function on an object, you do not have to give it a name
 
 This is referred to as an **ANONYMOUS FUNCTION**.  
 
-<br>
 ## [Plunker](https://plnkr.co/)
 - `Login`  
 - `Launch the Editor`  

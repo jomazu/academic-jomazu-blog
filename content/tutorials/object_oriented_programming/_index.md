@@ -21,14 +21,13 @@ menu:
     weight: 6
 ---
 
-<br>
 Object-oriented programming (OOP) is the foundation of modern programming languages and it's fundamental unit is the **object**. Around since the early 1960s, it did not start to gain momentum until the mid to late 1990s. Nonetheless, object-oriented languages are defined by the following three terms:
 
 - `Encapsulation`
 - `Inheritance`
 - `Polymorphism`
 
-<br>
+
 ## What is an object?
 When you look at a person, you see the person as an object. And an object is defined by two components:  
 
@@ -37,11 +36,9 @@ When you look at a person, you see the person as an object. And an object is def
 
 In object-oriented design, **both** properties and methods are contained within a single object. Objects are the building blocks of an object-oriented program.  
 
-<br>
 ##### *What is an object-oriented language?*
 <iframe width="280" height="158" src="https://www.youtube.com/embed/SS-9y0H3Si8" frameborder="0" allowfullscreen></iframe>  
 
-<br>
 ## Encapsulation
 
 By combining the properties and methods in the same object, we have what is called **encapsulation**, which allows us to control access to the data in the object.  
@@ -56,12 +53,10 @@ In general, two objects communicate with each other via their methods. Keep in m
 * The restriction of access to certain attributes and/or methods is called **data hiding**. For this to work, all attributes should be declared as *private*.
 * Objects are also known as **instances**. For example, a circle object is an instance of the circle class. In other words, a class is used to create an object. Thus, an object cannot be instantiated without a class!  
 
-<br>
 ## Inheritance
 
 **Inheritance** allows a class to inherit the properties and methods of another class. This allows the creation of brand-new classes by abstracting out common attributes and behaviors.  
 
-<br>
 ## Polymorphism
 
 Polymorphism is a Greek word that literally means many shapes. In object-oriented programming, we can use the same method, the same name, and same arguments to cause different things to happen according to the class in which we invoke a method. This feature is known as **polymorphism**.  
