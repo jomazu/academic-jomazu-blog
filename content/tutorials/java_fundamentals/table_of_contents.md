@@ -23,7 +23,6 @@ weight: 1
   - Java development user guide
 - [JDK 13 Documentation - Oracle](https://docs.oracle.com/en/java/javase/13/)
 - [How to start learning Java - GeeksforGeeks](https://www.geeksforgeeks.org/java-how-to-start-learning-java/)
-- [Free courses to learn Java - Medium](https://medium.com/javarevisited/10-free-courses-to-learn-java-in-2019-22d1f33a3915)
 - [Learn Java - JavaTpoint](https://www.javatpoint.com/java-tutorial)
 
 
