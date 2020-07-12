@@ -29,38 +29,37 @@ Most computer Operating Systems (OS) provide a graphical user interface (GUI or 
 
 `pwd`  
 **P**rint the full filename of the current **w**orking **d**irectory.
+
 ```ini
-jomazu:~/workspace/projects $ pwd
-/home/ubuntu/workspace/projects
+$ pwd
 ```
 
 `ls`  
 **L**i**s**t the contents of the current directory.
+
 ```ini
-jomazu:~/workspace/client $ ls
-css/  img/  index.html  js/
+$ ls
 ```
 
 `cd ..`  
 The **c**hange **d**irectory and double period combination will move to the parent directory of the current directory.
+
 ```ini
-jomazu:~/workspace/client $ cd ..
-jomazu:~/workspace $
+$ cd ..
 ```
 
 `cd ~`  
 The **c**hange **d**irectory and **~** (tilde) combination will return to the *home directory*. It is an alternative to using the *$HOME* command.
+
 ```ini
-jomazu:~/workspace/client $ cd ~
-jomazu:~ $
+$ cd ~
 ```
 
 `cd /`  
 The **c**hange **d**irectory and **/** (forward slash) combination will return to the *root directory*.
 
 ```ini
-jomazu:~/workspace/client $ cd /
-jomazu:/ $
+$ cd /
 ```
 
 ## Creating Directories
@@ -70,19 +69,19 @@ jomazu:/ $
 
 ```ini
 # Create a new directory in the current directory.
-jomazu:~/workspace $ mkdir dev_projects
-jomazu:~/workspace $ ls
+$ mkdir dev_projects
+$ ls
 dev_projects/
 
 # Create a new directory in another directory.
-jomazu:~/workspace $  mkdir dev_projects/test_1
-jomazu:~/workspace $ ls dev_projects/
+$  mkdir dev_projects/test_1
+$ ls dev_projects/
 test_1/
 
 # Create multiple directories in another directory.
-jomazu:~/workspace $ mkdir dev_projects/ex_1 dev_projects/ex_2
-jomazu:~/workspace $ ls dev_projects/
-ex_1/  ex_2/  test_1/
+$ mkdir dev_projects/ex_1 dev_projects/ex_2
+$ ls dev_projects/
+ex_1/  ex_2/
 ```
 
 ## Creating Files
@@ -92,26 +91,26 @@ ex_1/  ex_2/  test_1/
 
 ```ini
 # Create new file in current directory.
-jomazu:~/workspace/projects $ touch test.py
-jomazu:~/workspace/projects $ ls
+$ touch test.py
+$ ls
 test.py
 
 # Create new file in another directory.
-jomazu:~/workspace $ touch dev_env/hello-world.py
-jomazu:~/workspace $ ls dev_env/
+$ touch dev_env/hello-world.py
+$ ls dev_env/
 hello-world.py
 
 # Create multiple files in another directory.
-jomazu:~/workspace $ touch dev_env/ex1.py dev_env/ex2.py
-jomazu:~/workspace $ ls dev_env/
-ex1.py  ex2.py  hello-world.py
+$ touch dev_env/ex1.py dev_env/ex2.py
+$ ls dev_env/
+ex1.py  ex2.py
 ```
 
 `ls -lSh`  
 Use **ls** (list directory contents), the **-l** (long listing format), **-S** (sort by file size), and **-h** (human readable) flags to view additional information.
 
 ```ini
-jomazu:~/workspace $ ls -lSh test_env/
+$ ls -lSh test_env/
 
 # Total in Kilobytes.
 total 4.0K
@@ -127,17 +126,17 @@ The **r**e**m**ove command is used to delete a single file or multiple files.
 
 ```ini
 # Remove a single file.
-jomazu:~/workspace/test_env $ ls
+$ ls
 example.py
 
-jomazu:~/workspace/test_env $ rm example.py 
+$ rm example.py 
 
 # Remove multiple files at once.
-jomazu:~/workspace/notes $ ls
+$ ls
 note_1  note_2  note_3
 
-jomazu:~/workspace/notes $ rm note_1 note_2
-jomazu:~/workspace/notes $ ls
+$ rm note_1 note_2
+$ ls
 note_3
 ```
 
@@ -147,11 +146,11 @@ note_3
 The <span class="dark-pink fw9">r</span>e<span class="dark-pink fw9">m</span>ove <span class="dark-pink fw9">dir</span>ectory command will only delete a completely empty directory.
 
 ```ini
-jomazu:~/workspace/dev_projects $ ls
+$ ls
 ex_1/  ex_2/  test_1/
 
-jomazu:~/workspace/dev_projects $ rmdir test_1/
-jomazu:~/workspace/dev_projects $ ls
+$ rmdir test_1/
+$ ls
 ex_1/  ex_2/
 ```
 
@@ -161,15 +160,15 @@ The **rm** command in conjunction with the **-rf** flag will delete the director
 *Use this command with extreme caution!*
 
 ```ini
-jomazu:~/workspace/dev_projects $ ls
+$ ls
 ex_1/  ex_2/
 
-jomazu:~/workspace/dev_projects $ rm -rf ex_1/
-jomazu:~/workspace/dev_projects $ ls
+$ rm -rf ex_1/
+$ ls
 ex_2/
 ```
 
-## Summary  
+## **Summary**  
 
 :heavy_check_mark: `ls -lSh` - list a directory's contents, sorted by file size.  
 

@@ -28,6 +28,7 @@ subtitle = ""
     tag = ""
     category = ""
     publication_type = ""
+    author = ""
     exclude_featured = false
   
 [design]
@@ -45,7 +46,7 @@ subtitle = ""
   #   Any HTML color name or Hex value is valid.
   
   # Background color.
-  color = ""
+  # color = "navy"
   
   # Background gradient.
   # gradient_start = "DeepSkyBlue"
